@@ -1,7 +1,8 @@
 .newproject_container {
-    width: 450px;
+    width: 500px;
     margin: 0 auto;
     padding: 3em;
+    background-color: rgb(128, 124, 120);
 }
 
 .newproject_container h1 {
