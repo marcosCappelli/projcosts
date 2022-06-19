@@ -1,0 +1,10 @@
+.project_container {
+padding: 2em;
+background-color: rgb(128, 124, 120);
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}

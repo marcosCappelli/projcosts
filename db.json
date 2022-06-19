@@ -1,86 +1,48 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "1452222",
+      "name": "Teste 1",
+      "budget": "6000",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "name": "Projeto teste",
-      "budget": "52000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste de mensagem",
-      "budget": "5000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Projeto teste3",
-      "budget": "3000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "teste de mensagem2",
-      "budget": "900",
-      "category": {
-        "id": "5",
-        "name": "Teste"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "Projeto Teste 5",
-      "budget": "3000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "teste5",
-      "budget": "8000",
+      "name": "Teste 2",
+      "budget": "6000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 8
+      "id": 2
+    },
+    {
+      "name": "Teste 3",
+      "budget": "9000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Teste 4",
+      "budget": "450",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
@@ -99,14 +61,6 @@
     {
       "id": 4,
       "name": "Planejamento"
-    },
-    {
-      "id": 5,
-      "name": "Teste"
-    },
-    {
-      "id": 6,
-      "name": "Aplicação"
     }
   ]
 }
