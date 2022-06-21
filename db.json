@@ -1,48 +1,61 @@
 {
   "projects": [
     {
-      "name": "Teste 1",
-      "budget": "6000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Teste 2",
-      "budget": "6000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Teste 3",
-      "budget": "9000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Teste 4",
-      "budget": "450",
+      "name": "new project",
+      "budget": "600",
       "category": {
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 4
+      "cost": 600,
+      "services": [
+        {
+          "id": "82c6be79-c050-4f11-b512-2baa6db710dc"
+        },
+        {
+          "id": "82c6be79-c050-4f11-b512-2baa6db710dc"
+        },
+        {
+          "id": "82c6be79-c050-4f11-b512-2baa6db710dc"
+        },
+        {
+          "name": "new project",
+          "cost": "300",
+          "descripition": "testando fu",
+          "id": "7c1c3e96-ef0e-4514-9aff-518200d07579"
+        },
+        {
+          "name": "new project",
+          "cost": "200",
+          "descripition": "testando fu",
+          "id": "1ec2aa7a-b1dd-4af2-947e-cd381fdc941c"
+        },
+        {
+          "name": "new project",
+          "cost": "100",
+          "descripition": "testando fu",
+          "id": "4806b76b-d57c-4cfa-89e9-3a840218a541"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "teste",
+      "budget": "4100",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 300,
+      "services": [
+        {
+          "name": "teste ",
+          "cost": "300",
+          "descripition": "comprar sorvete",
+          "id": "f17e05f5-c3a7-4ed3-9150-34ba74ac8c68"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
