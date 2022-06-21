@@ -41,7 +41,7 @@ function Project() {
     }, [id])
 
     function editPost(project) {
-        setMessage(' ')
+        setMessage('')
         // budget validation
         if(project.budget < project.cost){
             setMessage('O orçamento não pode ser menor que o custo do projeto!')
@@ -68,7 +68,7 @@ function Project() {
     }
 
     function createService(project) {
-        setMessage(' ')
+        setMessage('')
         //last service
         const lastService = project.services[project.services.length - 1]
 
@@ -100,11 +100,40 @@ function Project() {
         .then((data) => {
             //exibir os serviços
             console.log(data)
+            setMessage('O serviço foi criado com sucesso!')
+            setType('success')           
+            
         })
         .catch(err => console.log(err))
     }
 
-    function removeService() {}
+    function removeService(id, cost) {
+
+        const servicesUpdated = project.services.filter(
+            (service) => service.id !== id
+        )
+
+        const projectUpdated = project
+
+        projectUpdated.services = servicesUpdated
+        projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+
+        fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type' : 'application/json'
+            },
+            body: JSON.stringify(projectUpdated)
+        })
+        .then((resp) => resp.json())
+        .then((data) => {
+            setProject(projectUpdated)
+            setServices(servicesUpdated)
+            setMessage('O serviço foi removido com sucesso!')
+            setType('success')
+        })
+        .catch(err => console.log(err))
+    }
 
     function toggleProjectForm() {
         setShowProjectForm(!showProjectForm)
@@ -168,7 +197,7 @@ function Project() {
                             id={service.id}
                             name={service.name}
                             cost={service.cost}
-                            descripition={service.descripition}
+                            description={service.description}
                             key={service.id}
                             handleRemove={removeService}
                             />
