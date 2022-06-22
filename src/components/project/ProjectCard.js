@@ -3,11 +3,7 @@ import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 import { Link } from "react-router-dom"
 
 
-
-
-
-
-function ProjectCard({id, name, budget, cost, category, handleRemove}) {
+function ProjectCard({id, name, budget, category, handleRemove}) {
 
         const remove = (e) => {
             e.preventDefault()
@@ -20,12 +16,7 @@ function ProjectCard({id, name, budget, cost, category, handleRemove}) {
             <p>
                 <span>Orçamento: </span> R$  {budget}
             </p>
-            <p>
-                <span>Valor Utilizado: </span> R$ {}
-            </p>
-             <p>
-                <span>Saldo Disponível:</span> R${}
-            </p>
+         
             <p className={styles.category_text}>
                 <span className={`${styles[category.toLowerCase()]}`}></span> {category}
             </p>

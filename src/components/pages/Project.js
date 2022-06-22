@@ -206,7 +206,7 @@ function Project() {
                      }
                      {services.length === 0 && <p>Não há serviços cadastrados.</p>}
                 </Container>
-            </Container>
+            </Container>''
         </div>
         ) : ( <Loading /> )
         }</>    

@@ -4,6 +4,7 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <footer className={styles.footer}>
+            <button >SAIBA</button>
             <ul className={styles.social_list}>
                 <li>
                     <FaFacebook/>

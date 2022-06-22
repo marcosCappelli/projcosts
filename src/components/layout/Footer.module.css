@@ -7,7 +7,7 @@
 
 .social_list {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     list-style-type: none;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .social_list SVG {
-    font-size: 1.5em;
+    font-size: 3em;
     cursor: pointer;
 }
 
@@ -31,4 +31,7 @@
 .copy_right span {
     font-weight: bold;
     color: rgb(196, 116, 19);
+}
+.button {
+    text-align: left;
 }
