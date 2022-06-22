@@ -1,7 +1,7 @@
 import styles from "./ProjectCard.module.css"
 import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 import { Link } from "react-router-dom"
-
+import NumberFormat from 'react-number-format'
 
 
 
@@ -11,14 +11,21 @@ function ProjectCard({id, name, budget, category, handleRemove}) {
             e.preventDefault()
             handleRemove(id)
         }
-       
-      
 
     return (
        <div className={styles.project_card}>
             <h4>{name}</h4>
             <p>
-                <span>Orçamento: </span> R${budget}
+                <span>Orçamento: </span>
+                <NumberFormat
+                 value={budget} 
+                 displayType={'text'}
+                  prefix={'R$  '}
+                  thousandSeparator={true}
+                  fixedDecimalScale={true}               
+                  allowNegative={true}
+                  decimalScale={2}
+                  />
             </p>
              <p>
                 <span>Saldo Disponível:</span> R${}
