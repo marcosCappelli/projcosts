@@ -105,5 +105,8 @@ props na função de definição do compoente;
 ## Tarefas e Desafios 
 - [x] Criar message: Serviço criado com sucesso!
 - [x] Inserir imagens na página Company
-- [ ] Formatar layout pagina Company
-- [ ] Criar styles Company.module.css
+- [x] Formatar layout pagina Company
+- [x] Criar styles Company.module.css
+- [x] links footer
+- [x] Criar styles Contact.module.css
+- [x] Pagina contatos
