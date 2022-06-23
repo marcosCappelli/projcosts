@@ -101,3 +101,9 @@ props na função de definição do compoente;
 - Precisamos adicionar ao projeto através do npm;
 - Ele nos permite adicionar ícones ao projeto com uma sintaxe parecida a de componentes;
 - Além disso há uma grande quantidade de ícones disponíveis;
+
+## Tarefas e Desafios 
+- [x] Criar message: Serviço criado com sucesso!
+- [x] Inserir imagens na página Company
+- [ ] Formatar layout pagina Company
+- [ ] Criar styles Company.module.css
