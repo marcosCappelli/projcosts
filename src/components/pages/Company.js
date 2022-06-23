@@ -5,11 +5,13 @@ import grafico3 from '../../img/grafico3.png'
 
 function Company() {
     return (
-        <section>
-            <h1>Empresa focada na economia!</h1>
-
-            <img src={grafico} alt="grafico"/>
+        <section className={styles.container}>
+            <h1 >Uma empresa focada na economia!</h1>
+            
             <img src={grafico2} alt="grafico2"/>
+            
+            <img src={grafico} alt="grafico"/>
+            
             <img src={grafico3} alt="grafico3"/>
 
         </section>

@@ -1,9 +1,25 @@
 .footer {
     background-color: black;
     color: azure;
-    padding: 3em;
+    padding: 0.25em;
     text-align: center;
 }
+
+.footer_button {
+    font-size: 0.8em;
+    padding: 1em 1em;
+    color: azure;
+    background-color: black;
+}
+
+.footer_button:hover {
+    color: rgb(196, 116, 19);
+}
+
+.footer_div {
+    display: flex;
+}
+
 
 .social_list {
     display: flex;
@@ -31,7 +47,4 @@
 .copy_right span {
     font-weight: bold;
     color: rgb(196, 116, 19);
-}
-.button {
-    text-align: left;
 }

@@ -1,0 +1,24 @@
+.container {
+    background-color: rgb(117, 114, 114);
+    width: 100%;
+}
+
+.container img {
+    border-radius: none;
+    padding-top: 1em;
+    padding-bottom: 1m;
+    padding-left: 20em;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+
+}
